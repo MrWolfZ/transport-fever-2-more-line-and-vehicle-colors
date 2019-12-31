@@ -131,9 +131,9 @@ function data()
           local greenValue = hexToNormalizedDecimal(string.sub(hexValue, 3, 4))
           local blueValue = hexToNormalizedDecimal(string.sub(hexValue, 5, 6))
 
-          local brg = { redValue, greenValue, blueValue }
+          local rgb = { redValue, greenValue, blueValue }
 
-          table.insert(result, brg)
+          table.insert(result, rgb)
         end
       end
 
